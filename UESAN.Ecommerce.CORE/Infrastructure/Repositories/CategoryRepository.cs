@@ -69,6 +69,11 @@ namespace UESAN.Ecommerce.CORE.Infrastructure.Repositories
             if (category == null)
             {
                 return false;
+
+
+
+
+
             }
             category.IsActive = false;
             _context.Category.Update(category);
